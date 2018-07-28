@@ -1,0 +1,15 @@
+<html>
+<body>
+{{#items}}
+<div>
+    <div>Name: {{name}}</div>
+    <div>Price: {{price}}</div>
+    {{#features}}
+    <ul>
+        <li>Feature: {{description}}</li>
+    </ul>
+    {{/features}}
+</div>
+{{/items}}
+</body>
+</html>
